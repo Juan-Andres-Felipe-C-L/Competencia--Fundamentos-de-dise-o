@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    font-family: sans-serif;
+    color: white;
+    height: 100vh;
+}
+
+body:nth-child(even){
+    background-color: black;
+}
+
+h1::after{
+    content: " ¡Bienvenido, usuario!";    
+}
+
+.Contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 70vh;
+    width: 70vw;
+    background-color: grey;
+    border: 5px solid green;
+    border-radius: 10%;
+}
+
+button{
+    height: 40vh;
+    width: 15vw;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: grey;
+    transform: translateY(-2px);
+}
+
+button:focus{    
+    border: 10px solid green;
+}
+
+img{
+    height: 100px;
+    width: 200px;
+}
+
+.Facebook{
+    height: 200px;
+    width: 200px;
+}
+
+.Spotify{
+    height: 200px;
+    width: 200px;
+}
+
+hr{
+    height: 5px;
+    width: 100vw;
+    background-color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 100vw;
+}
+
+h6::before{
+    content: "©️";
+}
